@@ -15,7 +15,7 @@ tap it, and it plays, with the current song shown in the player and on the lock 
 Stations come from the community database [radio-browser.info](https://www.radio-browser.info). No account, no API key, nothing stored.
 
 <p align="center">
-  <img src="docs/screenshots/search.svg" alt="Live radio tab in the search" width="80%">
+  <img src="docs/screenshots/search.svg" alt="Live radio tab in the search" width="55%">
 </p>
 
 ## Features
@@ -71,7 +71,7 @@ The sheet also shows which mirror answered last and the last problem, if any.
 The station is added to the **public** database for everyone, so only add stations that really exist. It can take a while until it shows up in the search.
 
 <p align="center">
-  <img src="docs/screenshots/settings.svg" alt="Plugin settings" width="60%">
+  <img src="docs/screenshots/settings.svg" alt="Plugin settings" width="55%">
 </p>
 
 ## Good to know

@@ -1,0 +1,3 @@
+# Dependencies of your plugin. The server installs uvicorn itself.
+fastapi>=0.115
+httpx>=0.28.1

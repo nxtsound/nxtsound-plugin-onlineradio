@@ -1,0 +1,18 @@
+{
+  "id": "onlineradio",
+  "name": "Online-Radio",
+  "version": "0.4.0",
+  "api_version": 1,
+  "entry": "app:app",
+  "requirements": "requirements.txt",
+  "description": "Adds live online radio to your NxtSound server. It uses radio-browser.info as source for streaming urls and can add stations to it.",
+  "categories": [
+    {
+      "id": "radio",
+      "label": {
+        "en": "Live radio",
+        "de": "Live-Radio"
+      }
+    }
+  ]
+}

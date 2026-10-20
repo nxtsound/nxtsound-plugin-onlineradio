@@ -15,7 +15,7 @@ tap it, and it plays, with the current song shown in the player and on the lock 
 Stations come from the community database [radio-browser.info](https://www.radio-browser.info). No account, no API key, nothing stored.
 
 <p align="center">
-  <img src="docs/screenshots/search.svg" alt="Live radio tab in the search" width="55%">
+  <img src="docs/screenshots/settings.png" alt="Settings of the Online radio plugin in the admin area" width="55%">
 </p>
 
 ## Features
@@ -25,7 +25,7 @@ Stations come from the community database [radio-browser.info](https://www.radio
 - 💬 **Search suggestions** with station names while you type
 - 🎶 **Now playing**: shows the song the station plays right now, when the station sends it
 - ⏱ **Start buffer** (adjustable) that smooths over short hiccups of a station
-- 🌍 **Mirrors**: choose the radio-browser.info server and a fallback in the settings
+- 🌍 **Mirrors**: choose the radio-browser.info server and a fallback in the settings (new mirrors are one line of code)
 - ➕ **Add a station** to the public database from inside NxtSound
 - In the player, live streams show "Live" instead of a progress bar
 
@@ -58,8 +58,8 @@ The gear button on the plugin's card (Admin area → Plugins) opens the settings
 
 | Setting | Meaning |
 |---|---|
-| Server mirror | The radio-browser.info server asked first (default `de1`). |
-| Fallback mirror | Used when the main mirror does not answer or reports a server error (default `de2`; "None" turns it off). |
+| Server mirror | The radio-browser.info server asked first (currently `de1`; more can be added, see Development). |
+| Fallback mirror | Used when the main mirror does not answer or reports a server error. Only one mirror is listed at the moment, so the default is "None"; as soon as you add more, the second one becomes the default. |
 | Start buffer | Seconds of audio collected before playback starts (0–30, default 3). A head start bridges short hiccups: fewer dropouts, later start. |
 
 The start buffer only costs time as far as a station is slower than real time. With one big station that sends a fast burst first: 0 s starts after 0.4 s, 3 s after 0.5 s,
@@ -69,10 +69,6 @@ The sheet also shows which mirror answered last and the last problem, if any.
 
 **Add a station:** the button "Add a station to radio-browser.info" opens a form (name and stream address are required; homepage, logo, country code, languages and tags are optional).
 The station is added to the **public** database for everyone, so only add stations that really exist. It can take a while until it shows up in the search.
-
-<p align="center">
-  <img src="docs/screenshots/settings.svg" alt="Plugin settings" width="55%">
-</p>
 
 ## Good to know
 

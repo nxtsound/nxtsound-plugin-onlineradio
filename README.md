@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/logo.svg" alt="NxtSound logo" width="80">
+
 # NxtSound plugin: Online radio
 
 **Thousands of live radio stations, right inside your own music server.**
